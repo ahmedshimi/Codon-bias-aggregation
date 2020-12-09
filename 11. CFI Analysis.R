@@ -1,4 +1,4 @@
-setwd("/Users/bruno/Desktop/IBP")
+setwd("YOUR_WORKING_DIRECTORY")
 library("plyr")
 install.packages("ggplot2")
 library("ggplot2")
