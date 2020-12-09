@@ -9,7 +9,7 @@ protein_names = []
 APR_values = []
 indices = []
 flags = []
-with open('PSX_tangowindow(0).csv', 'r') as read_obj:
+with open('PSX_tangowindow.csv', 'r') as read_obj:
     csv_reader = reader(read_obj)
     for row in csv_reader:
             # row variable is a list that represents a row in csv
@@ -40,4 +40,4 @@ print("X")
 output_1 = np.column_stack((protein_names_array,indices_array,APR_values_array,flags_array))
 output_1_to_file = pd.DataFrame(output_1,columns=["Protein_ID","Index", "APR_value", "Flag"])
 print("X")
-output_1_to_file.to_csv("Tango_data0.csv", index=False)
+output_1_to_file.to_csv("Tango_data.csv", index=False)
