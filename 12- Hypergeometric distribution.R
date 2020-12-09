@@ -1,7 +1,7 @@
 library("readxl")
 library("xlsx")
 library("plyr")
-setwd("~/Desktop/3rd sem/Bioinformatics project/Codon Frequency/")
+setwd("YOUR_WORKING_DIRECTORY")
 library("reshape2")
 
 
