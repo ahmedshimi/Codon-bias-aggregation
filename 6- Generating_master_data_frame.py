@@ -12,9 +12,9 @@ Proteins= []
 ids_protein = []
 signalp = {}
 
-NUCs = "/Users/fedora/PycharmProjects/IBP/coding_seq.txt"
-As = "/Users/fedora/PycharmProjects/IBP/afterTargetP.fasta"
-AAs= "/Users/fedora/PycharmProjects/IBP/amino_acid.fa"
+NUCs = "coding_seq.txt"
+As = "afterTargetP.fasta"
+AAs= "amino_acid.fa"
 file = "signalp_output.txt"
 
 print("X")
